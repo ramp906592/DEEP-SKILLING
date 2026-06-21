@@ -1,0 +1,13 @@
+DECLARE
+    v_due_days NUMBER := 20;
+
+BEGIN
+
+    IF v_due_days <= 30 THEN
+        DBMS_OUTPUT.PUT_LINE('Reminder: Your loan payment is due within 30 days.');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('No reminder needed.');
+    END IF;
+
+END;
+/

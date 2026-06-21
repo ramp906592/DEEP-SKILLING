@@ -1,0 +1,14 @@
+DECLARE
+    v_balance NUMBER := 15000;
+    v_isVIP VARCHAR2(5) := 'FALSE';
+
+BEGIN
+
+    IF v_balance > 10000 THEN
+        v_isVIP := 'TRUE';
+    END IF;
+
+    DBMS_OUTPUT.PUT_LINE('VIP Status: ' || v_isVIP);
+
+END;
+/

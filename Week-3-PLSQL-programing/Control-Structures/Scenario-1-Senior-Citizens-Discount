@@ -1,0 +1,14 @@
+DECLARE
+    v_age NUMBER := 65;
+    v_interest_rate NUMBER := 10;
+
+BEGIN
+
+    IF v_age > 60 THEN
+        v_interest_rate := v_interest_rate - 1;
+    END IF;
+
+    DBMS_OUTPUT.PUT_LINE('Updated Interest Rate: ' || v_interest_rate || '%');
+
+END;
+/
