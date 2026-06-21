@@ -1,0 +1,30 @@
+Design Principle 
+SOLID 
+S=single responsibility
+open/closed
+Liskov substitution
+interface segregation
+dependency inversion
+
+
+Design Pattern :-
+
+STRUCTURAL:- Object composition --> Adappter design patternn
+
+CREATIONAL:- Object instantiation --> Singleton design pattern
+
+BEHAVIUORAL:- Object Interactions --> Observer design pattern
+
+Architectural pattern:-
+M - Model
+V - View
+C - Controller
+
+
+Collections --> set of class and interface 
+MAP, LIST, SET --> INTERAFCE
+HASHMAP, HASHLIST, ARRAYLSIT, LINKEDLIST, TREESHEET--> CLASS
+
+
+
+
